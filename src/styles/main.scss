@@ -1,5 +1,2 @@
-.side-panel {
-  width: 100px;
-  height: 100px;
-  background-color: rebeccapurple;
-}
+@import './structure.scss';
+@import "./side-panel.scss";
