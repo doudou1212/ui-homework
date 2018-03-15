@@ -14,6 +14,24 @@
 
   .build-info {
     background-color: #FF9A2A;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      padding: 20px 0 0 10px;
+    }
+
+    .count {
+      font-size: 48px;
+      align-self: flex-end;
+    }
+
+    .icon-cog {
+      font-size: 110px;
+    }
   }
 
   .all-info {
