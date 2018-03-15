@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #F3F3F3;
+}
+
 .crulse-body {
   width: 80%;
   padding: 0;
@@ -18,4 +22,12 @@
   width: 20%;
   color: #FFFFFF;
   background-color: #2E4053;
+  float: left;
+}
+
+.main-content {
+  width: 80%;
+  float: right;
+  box-sizing: border-box;
+  padding: 2em 0 0 2em;
 }

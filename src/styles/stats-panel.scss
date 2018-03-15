@@ -1,0 +1,23 @@
+.stats-panel {
+  width: 100%;
+
+  &--item {
+    width: 29%;
+    height: 115px;
+    float: left;
+  }
+
+  .idle-info {
+    margin: 0 6.5%;
+    background-color: #7FBC39;
+  }
+
+  .build-info {
+    background-color: #FF9A2A;
+  }
+
+  .all-info {
+    float: right;
+    background-color: #FFFFFF;
+  }
+}

@@ -4,32 +4,60 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="/dist/styles.css">
-  <script src="/dist/main.js" ></script>
+  <script src="/dist/main.js"></script>
 </head>
-<body class="crulse-body">
-<aside class="side-panel">
-  <section class="menu">
-    <div class="meanu-item">
-      <span class="icon icon-dashboard"></span>
-      <span class="message">DASHBOARD</span>
+<body>
+<div class="crulse-body">
+  <aside class="side-panel">
+    <section class="menu">
+      <div class="meanu-item">
+        <span class="icon icon-dashboard"></span>
+        <span class="message">DASHBOARD</span>
+      </div>
+      <div class="meanu-item">
+        <span class="icon icon-sitemap"></span>
+        <span class="message">AGENT</span>
+      </div>
+      <div class="meanu-item">
+        <span class="icon icon-boat"></span>
+        <span class="message">MY CRUISE</span>
+      </div>
+      <div class="meanu-item glyph fs2">
+        <span class="icon icon-life-bouy"></span>
+        <span class="message">HELP</span>
+      </div>
+    </section>
+
+    <section class="history"></section>
+  </aside>
+
+  <section class="main-content">
+    <div class="stats-panel">
+      <div class="stats-panel--item build-info">
+        <span calss="title">Building</span>
+        <span calss="count">3</span>
+      </div>
+      <div class="stats-panel--item idle-info">
+        <span calss="title">Idle</span>
+        <span calss="count">5</span>
+      </div>
+      <div class="stats-panel--item all-info">
+        <div>
+          <span calss="title">ALL</span>
+          <span calss="count">8</span>
+        </div>
+        <div>
+          <span calss="title">PHYSICAL</span>
+          <span calss="count">4</span>
+        </div>
+        <div>
+          <span calss="title">VIRTUAL</span>
+          <span calss="count">4</span>
+        </div>
+      </div>
     </div>
-    <div class="meanu-item">
-      <span class="icon icon-sitemap"></span>
-      <span class="message">AGENT</span>
-    </div>
-    <div class="meanu-item">
-      <span class="icon icon-boat"></span>
-      <span class="message">MY CRUISE</span>
-    </div>
-    <div class="meanu-item glyph fs2">
-      <span class="icon icon-life-bouy"></span>
-      <span class="message">HELP</span>
-    </div>
+
   </section>
-
-  <section class="history"></section>
-</aside>
-<div class="main-content"></div>
-
+</div>
 </body>
 </html>
